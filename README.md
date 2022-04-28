@@ -12,7 +12,7 @@ Proces 3: pobiera dane wyprodukowane przez proces 2 i umieszcza je w standardowy
 Należy zaproponować i zaimplementować mechanizm informowania się procesów o swoim stanie.  
 Należy wykorzystać do tego dostępny mechanizm sygnałów i łączy komunikacyjnych (pipes).  
 Scenariusz powiadamiania się procesów o swoim stanie wygląda następująco:  
-do procesu 3 wysyłane są sygnały. Proces 3 przesyła otrzymany sygnał do procesu macierzystego.  
+Do procesu 3 wysyłane są sygnały. Proces 3 przesyła otrzymany sygnał do procesu macierzystego.  
 Proces macierzysty zapisuje wartość sygnału do łączy komunikacyjnych oraz wysyła powiadomienie  
 do procesu 1 o odczytaniu zawartości łącza komunikacyjnego. Proces 1 po odczytaniu sygnału  
 wysyła powiadomienie do procesu 2 o odczytanie łącza komunikacyjnego.  
